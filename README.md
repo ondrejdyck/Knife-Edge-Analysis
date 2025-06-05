@@ -2,5 +2,3 @@
 This repository houses the analysis code used to perform a knife-edge image quality comparison between several scanning electron microscope (SEM) images that was presented in the publication 'A Cryo-CMOS Platform for Scalable and In Situ Quantum Materials Characterization' by Luca Nessi, Bevin Huang, Jinchen Wang,  Cole Brabec, Bogdan Dryzhakov, Qian Song, Ondrej Dyck, Stephen Jesse, Ruonan Han, Riccardo Comin, Dirk Englund, Jawaher Almutlaq [link when published].
 
 The analysis code is contained in the Jupyter Notebook `Knife_Edge_Analysis.ipynb`. Tif image files are supplied in the repository and the code presumes their existence and reads them in. Output images are commented out in the current version of the code (only plotted). If the image output is desired, uncomment the `plt.savefig(...)` statements.
-
-This readme is not getting updated?
